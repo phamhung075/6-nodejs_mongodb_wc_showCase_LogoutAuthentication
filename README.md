@@ -93,8 +93,12 @@ x-api-key: [API_KEY]
 
 ### logout with this account
 ``` 
-POST http://localhost:3052/v1/api/shop/logout
+@url_dev=http://localhost:3052/v1/api/
+
+### logout
+POST {{url_dev}}/shop/logout
 Content-Type: application/json
 x-api-key: [API_KEY]
+x-client-id: [SHOP_ID]
 ```
 For more detailed examples, refer to see [README.png](./help06.png).
