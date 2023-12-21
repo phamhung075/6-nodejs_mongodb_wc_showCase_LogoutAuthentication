@@ -100,5 +100,6 @@ POST {{url_dev}}/shop/logout
 Content-Type: application/json
 x-api-key: [API_KEY]
 x-client-id: [SHOP_ID]
+authorization: [ACCESS_TOKEN]
 ```
 For more detailed examples, refer to see [README.png](./help06.png).
