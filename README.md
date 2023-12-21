@@ -80,7 +80,7 @@ x-api-key: [API_KEY]
 ``` 
 @url_dev=http://localhost:3052/v1/api/
 
-### signup
+### login
 POST {{url_dev}}/shop/login
 Content-Type: application/json
 x-api-key: [API_KEY]
